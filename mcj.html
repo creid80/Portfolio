@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Carol Reid - My College Journey</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a class="logo">Carol Reid</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">The Massage Center</a></li>
+							<li class="active"><a href="mcj.html">My College Journey</a></li>
+							<li><a href="education.html">Education</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://linkedin.com/in/carol-f-reid" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/creid80" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">Android Application
+									<h1><a href="https://github.com/creid80/My-College-Journey">My College Journey</a></h1>
+									<p>A mobile application that aids college students in tracking their academic journey through a user-friendly design that allows them to add terms, courses, assessments, notifications and notes.</p>
+								</header>
+								<div class="image main"><img src="images/Screenshot (71).png" alt="An image showing all of the screens contained in the application." /></div>
+								<ul class="actions special">
+									<li><a href="https://github.com/creid80/My-College-Journey" class="button large">View Project</a></li>
+								</ul>
+								<p style="text-align: center;"><b>Tools Used:</b> Android Studio, SQLite, GitHub</p>
+								<br />
+								<p>My College Journey is an application for the average college student to track their academic progress from orientation to graduation, with simplicity and convenience in mind. Currently, the application is only available for Android phones due to their convenience, but a tablet version would provide more adequate space for the course details activity layout. In landscape mode I would move the course and assessment lists fragments to the right of the term and course details, instead of being below them. My College Journey was developed with a minimum SDK of 26, targeting an SDK of 32. While developing and debugging the application, I used an emulator to test across multiple APIs since I only own one physical phone. Once I completed the application, I ran it on my physical device to test it in real-world conditions. Although emulators are useful tools for debugging and testing across multiple devices, a physical device allows you to see how it interacts with the hardware and software for performance testing.</p>
+<p>I began by breaking each requirement into smaller increments before I started programming the applications. As I worked through the requirements, I encountered many challenges including:
+<ol>
+<li>	As I visualized the layout of the app, I knew I would need to incorporate color into the design to aid in the navigation for a better user experience. </li>
+<li>    After successfully programming all the menus, I realized that my back navigation arrow no longer worked properly. </li>
+<li>Due to the length of the course details activity, and the small size of the target device, I struggled to allow the user to scroll through the course details and the assessment list while in landscape mode. </li>
+</ol></p>
+<p>Solutions:
+<ol>
+<li>	By color coordinating each list item and the “+” floating action button, with a unique color, I hoped to enhance the user experience by introducing a fun color scheme and a cohesive navigation system.</li>
+<li>	While rewatching the first dolphin webinar, I realized that the onOptionsItemSelected method for handling the menu selection should have included a switch case for android.R.id.home .</li> 
+<li>	After unsuccessfully trying to wrap the recycler view for the assessment list inside the course details activity’s scrollview, I read the Android developer documentation on recycler views. (Android Developers, n.d.) Adding the scrollbars attribute and setting it to vertical, enabled the user to view the entire list of assessments added.</li>
+</ol></p>
+<p>If I were to do the project again, I would watch the dolphin webinars while taking detailed notes on key topics. I would incorporate my color scheme into the resources' colors instead of using hexadecimal colors for easier updating. In addition, I would reference the Android developer website earlier in my troubleshooting process before searching Google. Furthermore, reducing each requirement to manageable steps and testing in increments was imperative to troubleshooting errors as I encountered them, and I would duplicate these processes. Progressing through the development of the application, I had many opportunities to further my knowledge of the Java language and learn how it interacts with the Android system.</p>
+
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+						
+					<section class="split contact">
+						<section class="alt">
+							<h3>Location</h3>
+							<p>Lakeland, FL. 33801</p>
+						</section>
+						<section>
+							<h3>Phone</h3>
+							<p>(863)327-3824</p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p><a href="#">creid80@wgu.edu</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://linkedin.com/in/carol-f-reid" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/creid80" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+
+			<!-- Copyright -->
+				<div id="copyright">
+					<ul><li>&copy; CReid</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
